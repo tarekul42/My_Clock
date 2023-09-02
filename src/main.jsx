@@ -17,19 +17,19 @@ const router = createBrowserRouter([
     element: <Home></Home>,
     children:[
       {
-        path: "/watch",
+        path: "watch",
         element: <Watch></Watch>
       },
       {
-        path: '/alarm',
+        path: 'alarm',
         element: <Alarm></Alarm>
       },
       {
-        path: '/stopwatch',
+        path: 'stopwatch',
         element: <StopWatch></StopWatch>
       },
       {
-        path: '/timer',
+        path: 'timer',
         element: <Timer></Timer>
       }
     ]

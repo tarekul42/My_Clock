@@ -1,0 +1,8 @@
+.active{
+    color: lightblue;
+    font-size: 1.5rem;
+    border-bottom: 1px solid lightblue;
+}
+a{
+    padding: 0px 20px 0px 20px;
+}
