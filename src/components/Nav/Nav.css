@@ -6,3 +6,10 @@
 a{
     padding: 0px 20px 0px 20px;
 }
+/* responsive desing */
+@media screen and (min-width: 768px) {
+    .navigation{
+        width: 80%;
+        margin: 0 auto;
+    }
+  }
