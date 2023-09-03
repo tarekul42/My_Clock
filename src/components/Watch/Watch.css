@@ -14,12 +14,16 @@
     left: 50%;
     transform: translateX(-50%);
 }
-#hrs::after{
-    content: 'Hours';
+
+/* medium device responsive */
+@media screen and (min-width: 610px) {
+    .clock span{
+        font-size: 190px;
+    }
 }
-#min::after{
-    content: 'Minutes';
-}
-#sec::after{
-    content: 'Seconds';
+/* large device responsive */
+@media screen and (min-width: 1200px) {
+    .clock span{
+        font-size: 350px;
+    }
 }
