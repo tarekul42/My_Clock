@@ -1,0 +1,49 @@
+.stopwatch{
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+.stopwatch .span{
+    font-size: 90px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.stopwatch .span::after{
+    font-size: 16px;
+    position:absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot-span{
+    width: 10px;
+    font-size: 28px;
+}
+button{
+    padding: 8px 24px 8px 24px;
+    border: 2px solid wheat;
+    border-radius: 6px;
+    margin: 0 8px 0 8px;
+    font-size: 20px;
+}
+
+/* medium device responsive */
+@media screen and (min-width: 610px) {
+    .stopwatch .span{
+        font-size: 190px;
+    }
+    .dot-span{
+        width: 20px;
+        font-size: 78px;
+    }
+}
+/* large device responsive */
+@media screen and (min-width: 1200px) {
+    .stopwatch .span{
+        font-size: 350px;
+    }
+    .dot-span{
+        width: 30px;
+        font-size: 128px;
+    }
+}
