@@ -1,8 +1,39 @@
-# React + Vite
+# My Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-feature clock application built with React, featuring a digital watch, alarm, stopwatch, and timer — all in one clean interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Digital watch**: Real-time clock display
+- **Alarm**: Set and manage alarms
+- **Stopwatch**: Start, pause, and reset functionality
+- **Timer**: Countdown timer with customizable duration
+- **Responsive design**: Tailwind CSS with mobile-first approach
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | React 18 + Vite 4 |
+| Routing | React Router DOM 6 |
+| Styling | Tailwind CSS 3 |
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Home/         # Home page
+│   ├── Watch/        # Digital clock
+│   ├── Alarm/        # Alarm feature
+│   ├── StopWatch/    # Stopwatch feature
+│   └── Timer/        # Timer feature
+└── main.jsx          # Entry point with routes
+```
